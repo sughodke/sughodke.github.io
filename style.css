@@ -119,15 +119,25 @@ section a {
   color: #f3f3f3;
 }
 
+/* ZENDATA */
+.zendata { background: #f9f9f9; }
+
 /* SOCIAL */
+/*
+.social { 
+  box-shadow: 0 -5px 5px -5px #333 inset, 0 5px 5px -5px #333 inset;
+}
+*/
 .social div { 
   display: flex; 
   justify-content: space-around;
+  display: -webkit-flex;
+  -webkit-justify-content: space-around;
 }
 .social a { width: 3em; overflow: visible;}
 .social a i { font-size: 3em; line-height: 3em; }
 .social a i { color: lightgray; }
-.social a:hover i { color: darkgray; }
+.social a:hover i { color: #333; }
 
 /* CONTACT */
 .contact { background: rgba(149,165,166,0.4); }
