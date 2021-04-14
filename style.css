@@ -42,6 +42,14 @@ section p {
   line-height: 1;
 }
 
+.header img {
+  display: block;
+  width: 20em;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 3em;
+}
+
 .header h1 span {
   display: block;
   font-size: 50%;
@@ -70,6 +78,7 @@ section a {
 
 /* Fade in background */
 .about {
+  margin-top: -12em;
   background: rgba(149,165,166,0.1);
 }
 
