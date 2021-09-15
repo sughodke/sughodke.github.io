@@ -1,12 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Header from "../partials/Header";
 import SocialLinks from '../partials/SocialLinks'
+import ContactForm from "../partials/ContactForm";
 import Project from '../components/Project'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <title>Sid Ghodke</title>
                 <meta charset="UTF-8"/>
@@ -28,20 +30,7 @@ export default function Home() {
 
             <main>
 
-                <header className={styles.header}>
-                    <h1 className={styles.title}>Sid Ghodke</h1>
-                    {/* <span className={styles.logo}></span> */}
-                    <Image src="/avatar.jpeg" alt="Sid Ghodke avatar" width={224} height={224}/>
-                </header>
-
-                <section className={styles.about}>
-                    <p>
-                        I'm Sid, I live in Northern Califonia. These days I'm involved mostly in software - but I still
-                        find time for surfing, reading, writing, and beer. A lot of my recent work involves
-                        visualization and machine learning. I blog at <a href="//medium.com/@sid.ghodke">on Medium</a>.
-                        <a href="http://sughodke.github.io/Siddharth%20Ghodke%20(Eng%20Leader).pdf">My Resume</a>.
-                    </p>
-                </section>
+                <Header />
 
                 <SocialLinks/>
 
@@ -53,7 +42,7 @@ export default function Home() {
 
             </main>
 
-            <footer className={styles.footer}></footer>
+            <ContactForm />
         </div>
     )
 }
