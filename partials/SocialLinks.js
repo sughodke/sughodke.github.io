@@ -10,9 +10,11 @@ export default function SocialLinks() {
             <a href="//linkedin.com/in/sidghodke"><i className="fab fa-linkedin"/></a>
             <a href="//github.com/sughodke"><i className="fab fa-github-alt"/></a>
             <a href="//bitbucket.com/sid_ghodke"><i className="fab fa-bitbucket"/></a>
-            <a href="//www.angel.co/sid-ghodke"><i className="fab fa-angellist"/></a>
-            <a href="//www.medium.com/@sid.ghodke"><i className="fab fa-medium"/></a>
-            <a href="//www.medium.com/@sid.ghodke"><i className="fab fa-kaggle"/></a>
+            <a href="//angel.co/sid-ghodke"><i className="fab fa-angellist"/></a>
+            <a href="//medium.com/@sid.ghodke"><i className="fab fa-medium"/></a>
+            <a href="//kaggle.com/cheedcheed"><i className="fab fa-kaggle"/></a>
+            <a href="//quora.com/profile/Sid-Ghodke"><i className="fab fa-quora"/></a>
+            <a href="//goodreads.com/user/show/84811296-sid-ghodke"><i className="fab fa-goodreads"/></a>
         </div>
     </section>
 }
