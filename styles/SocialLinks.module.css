@@ -11,6 +11,9 @@
   justify-content: space-around;
   display: -webkit-flex;
   -webkit-justify-content: space-around;
+
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .social a { width: 3em; overflow: visible;}
 .social a i { font-size: 3em; line-height: 3em; }
