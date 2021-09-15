@@ -1,4 +1,5 @@
 import styles from "../styles/Header.module.css";
+import Link from 'next/link';
 
 export default function Header() {
     return <>
@@ -15,7 +16,7 @@ export default function Header() {
             I'm Sid, I live in Northern Califonia. These days I'm involved mostly in software - but I still
             find time for surfing, reading, writing, and beer. A lot of my recent work involves
             visualization and machine learning. I blog at <a href="//medium.com/@sid.ghodke">on Medium</a>.
-            <a href="http://sughodke.github.io/Siddharth%20Ghodke%20(Eng%20Leader).pdf">My Resume</a>.
+            <Link href="/Siddharth%20Ghodke%20(Digital%20Health%20Leader).pdf">My Resume</Link>.
         </p>
     </section>
     </>

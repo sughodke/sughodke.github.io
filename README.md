@@ -1,4 +1,4 @@
-Sid Ghodke's [Next.js](https://nextjs.org/) Blog.
+Sid Ghodke's Blog.
 
 ### `yarn dev`
 

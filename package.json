@@ -7,10 +7,9 @@
     "build": "next build",
     "lint": "next lint",
     "export": "next export",
-    "deployonly": "gh-pages -d out/",
-    "deploy": "next build ; next export ; gh-pages -d out/"
+    "deployonly": "gh-pages -d out/ -t true",
+    "deploy": "rm -rf node_modules/.cache ./out && next build && next export && touch out/.nojekyll && gh-pages -d out/ -t true"
   },
-  "homepage": "https://sughodke.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "fontsource-raleway": "^4.0.0",
