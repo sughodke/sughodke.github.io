@@ -3,12 +3,6 @@
 .contact a { font-weight: 500; }
 .contact p { margin-bottom: 40px; }
 
-.contact div, .social div {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .inputBlockLevel, .sendButton {
     margin: 0px;
     padding: 20px;
@@ -18,7 +12,6 @@
     width: 100%;
     border: 0;
     border-bottom: 2px solid #cacaca;
-    margin: 0px;
     color: #404d5b;
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: 300;
@@ -27,6 +20,8 @@
 .contactForm {
     font-size: 3em;
     font-weight: 500;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /*
