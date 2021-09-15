@@ -5,12 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deployonly": "gh-pages -d out/",
+    "deploy": "next build ; next export ; gh-pages -d out/"
   },
+  "homepage": "https://sughodke.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
     "fontsource-raleway": "^4.0.0",
+    "gh-pages": "^3.2.3",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"

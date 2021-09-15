@@ -22,7 +22,7 @@ const App = ({Component, pageProps}) => {
         <>
             <Head>
                 <title>Sid Ghodke</title>
-                <meta charset="UTF-8"/>
+                <meta charSet="UTF-8"/>
                 <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
                 <meta name="description" content="A healthy dose of what I'm working on currently"/>
                 <meta name="author" content="Sid Ghodke"/>

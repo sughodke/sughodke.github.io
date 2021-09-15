@@ -1,12 +1,13 @@
 import styles from "../styles/Header.module.css";
-import Image from "next/image";
 
 export default function Header() {
     return <>
     <header className={styles.header}>
         <h1 className={styles.title}>Sid Ghodke</h1>
-        {/* <span className={styles.logo}></span> */}
+        {/*
         <Image src="/avatar.jpeg" alt="Sid Ghodke avatar" width={224} height={224}/>
+        */}
+        <img src="/avatar.jpeg" alt="Sid Ghodke avatar"/>
     </header>
 
     <section className={styles.about}>
