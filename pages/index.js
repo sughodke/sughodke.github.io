@@ -1,7 +1,7 @@
 import Header from "../partials/Header";
-import SocialLinks from '../partials/SocialLinks'
+import SocialLinks from "../partials/SocialLinks";
 import ContactForm from "../partials/ContactForm";
-import Project from '../components/Project'
+import Project from "../components/Project";
 
 export default function Home() {
     return (
@@ -18,7 +18,7 @@ export default function Home() {
 
                 <Project>
                     <p>Two years ago I started <a href="http://172.93.55.89">AlohaMD</a>, a telehealth consulting
-                        service in the SF Bay Area. We've stopped taking on new contracts. See our case-studies for the
+                        service in the SF Bay Area. We&apos;ve stopped taking on new contracts. See our case-studies for the
                         work we undertook.</p>
                 </Project>
 
@@ -36,7 +36,7 @@ export default function Home() {
                 </Project>
 
                 <Project>
-                    <p>I'm building <a href="#">Sanjay the IT Guy</a>, a time management game (to the likes of
+                    <p>I&apos;m building <a href="#">Sanjay the IT Guy</a>, a time management game (to the likes of
                         DinerDash) that puts you in the shoes of Sanjay an under-paid IT Guy who has to put out literal
                         and figurative fires in his office.</p>
                 </Project>
