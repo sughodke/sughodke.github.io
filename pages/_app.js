@@ -28,7 +28,7 @@ const App = ({Component, pageProps}) => {
                 <meta name="author" content="Sid Ghodke"/>
                 <link rel="icon" href="/favicon.png"/>
                 <link
-                    href="https://fonts.googleapis.com/css?family=Raleway:400,100,300,500,800"
+                    href="https://fonts.googleapis.com/css?family=Raleway:400,100,300,500,800&display=optional"
                     rel="stylesheet"
                 />
                 <link
