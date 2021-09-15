@@ -3,7 +3,6 @@ import Header from "../partials/Header";
 import SocialLinks from '../partials/SocialLinks'
 import ContactForm from "../partials/ContactForm";
 import Project from '../components/Project'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
@@ -19,9 +18,6 @@ export default function Home() {
                 {/* TODO figure out font cross loading */}
                 <link href="//fonts.googleapis.com/css?family=Raleway:400,100,300,500,800" rel="stylesheet"
                       type="text/css"/>
-
-                {/* TODO figure out font awesome */}
-                <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" rel="stylesheet"/>
             </Head>
 
             <Header />
