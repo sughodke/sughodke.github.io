@@ -22,8 +22,6 @@ export default function Home() {
 
                 {/* TODO figure out font awesome */}
                 <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" rel="stylesheet"/>
-
-                {/* TODO import google analytics UA-62915331-1 */}
             </Head>
 
             <Header />
