@@ -1,14 +1,10 @@
 import '../styles/globals.css'
-import '@fortawesome/fontawesome-free/css/all.min.css'
-
-// TODO figure out why font loading causes a flicker
-// import 'fontsource-raleway/latin.css'
 
 import {useEffect} from 'react'
 import {useRouter} from 'next/router'
 import Head from "next/head";
 import Script from 'next/script'
-import * as gtag from './gtag'
+import * as gtag from '../libs/gtag'
 
 const App = ({Component, pageProps}) => {
     const router = useRouter()
@@ -31,8 +27,14 @@ const App = ({Component, pageProps}) => {
                 <meta name="description" content="A healthy dose of what I'm working on currently"/>
                 <meta name="author" content="Sid Ghodke"/>
                 <link rel="icon" href="/favicon.png"/>
-                <link href="//fonts.googleapis.com/css?family=Raleway:400,100,300,500,800" rel="stylesheet"
-                      type="text/css"/>
+                <link
+                    href="https://fonts.googleapis.com/css?family=Raleway:400,100,300,500,800"
+                    rel="stylesheet"
+                />
+                <link
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css"
+                    rel="stylesheet"
+                />
             </Head>
 
             {/* Global Site Tag (gtag.js) - Google Analytics */}
