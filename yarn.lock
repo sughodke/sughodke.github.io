@@ -1335,6 +1335,11 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.2.tgz#64bfed5cb68fe3ca78b3eb214ad97b63bedce561"
   integrity sha512-JaTY/wtrcSyvXJl4IMFHPKyFur1sE9AUqc0QnhOaJ0CxHtAoIV8pYDzeEfAaNEtGkOfq4gr3LBFmdXW5mOQFnA==
 
+fontsource-raleway@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-raleway/-/fontsource-raleway-4.0.0.tgz#52ecbe22b974b2cb65c6d989cda98992f2e25887"
+  integrity sha512-v0HVbiPNOI4zVEyrwF/2qQJhba9AOE+7EYNFl9URuokOzfKw5q5zuJkUaWau6wBw6ylkpeZI2Hjqgd7xHYLQnA==
+
 foreach@^2.0.5:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"

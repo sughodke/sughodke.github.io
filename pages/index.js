@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Header from "../partials/Header";
 import SocialLinks from '../partials/SocialLinks'
 import ContactForm from "../partials/ContactForm";
@@ -7,19 +6,6 @@ import Project from '../components/Project'
 export default function Home() {
     return (
         <div>
-            <Head>
-                <title>Sid Ghodke</title>
-                <meta charset="UTF-8"/>
-                <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
-                <meta name="description" content="A healthy dose of what I'm working on currently"/>
-                <meta name="author" content="Sid Ghodke"/>
-                <link rel="icon" href="/favicon.png"/>
-
-                {/* TODO figure out font cross loading */}
-                <link href="//fonts.googleapis.com/css?family=Raleway:400,100,300,500,800" rel="stylesheet"
-                      type="text/css"/>
-            </Head>
-
             <Header />
             <SocialLinks/>
 
