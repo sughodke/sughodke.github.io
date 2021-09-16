@@ -14,7 +14,23 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 Deploy on Github
 
-### Learn More
+### Inspiration
+
+*Animations*
+[CSS only morphing blob](https://codepen.io/notwaldorf/pen/omXwzw)
+[Bouncing Liquid Loader](https://codepen.io/supah/pen/QyWwNd?editors=1100)
+[Cube loading animation](https://codepen.io/cssinate/pen/vXEwmX)
+[Random geometric shapes loading animation](https://codepen.io/banik/pen/qMyYmd)
+
+*Parallax*
+[react-scroll-parallax](https://jscottsmith.github.io/react-scroll-parallax-examples/examples/parallax-example/)
+
+*Profiles*
+[Vik's Page](https://www.vikbakhru.com/about)
+[https://github.com/hta218/leo-blog](https://www.leohuynh.dev/about)
+[CV Timeline](https://tailwindcomponents.com/component/timeline-1)
+[Basic Timeline](https://tailwindcomponents.com/component/timeline-2)
+
 
 To learn more about Next.js, take a look at the following resources:
 
