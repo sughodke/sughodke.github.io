@@ -16,6 +16,7 @@ Sid Ghodke's Blog.
 - [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog/tree/master/data)
 - [CV Timeline](https://tailwindcomponents.com/component/timeline-1)
 - [Basic Timeline](https://tailwindcomponents.com/component/timeline-2)
+- [Clausen portfolio](https://www.johannclausen.com/?filter=Featured)
 
 ## Commands
 ### `yarn dev`
