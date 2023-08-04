@@ -1,7 +1,6 @@
 const Projects = [
   <p>
-    I’ve been funding and building Digital Health software for the past ten years.
-    Here&apos;s some of the highlights:
+    Here&apos;s some recent the highlights:
     <ul>
       <li>grew a $150M digital coaching platform for type-2 diabetes, smoking cessation
         and heart health programs.</li>
