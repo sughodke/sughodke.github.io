@@ -11,10 +11,16 @@ export default function Header() {
 
     <section className={styles.about}><p>
         I&apos;m Sid, I live in Northern California.
-        I am an entrepreneur engineer working in the intersection of Healthcare, Technology and Capital.
-        When I can I make time for surfing, reading, and writing.
-        I blog <a href="//medium.com/@sid-ghodke">on Medium</a>.{' '}
-        And this is <Link href="/Siddharth%20Ghodke%20(Digital%20Health%20Leader).pdf">my Resume</Link>.
+        I am an entrepreneur and engineer working in the intersection of Healthcare and Technology.
+        Here&apos;s what I bring to the table:{" "}
+        <ul>
+            <li>🔑 Unique Blend of Skills and Experience</li>
+            <li>🚀 Proven Track Record of Innovation</li>
+            <li>🧩 Holistic Approach to Team Building</li>
+            <li>🌐 Deep Industry Knowledge</li>
+            <li>💡 Growth Mindset</li>
+        </ul>
+        You can find my resume <Link href="/Siddharth%20Ghodke%20(Digital%20Health%20Leader).pdf">here</Link>.
     </p></section>
     </>
 }
